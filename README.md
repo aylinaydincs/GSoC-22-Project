@@ -28,7 +28,7 @@ This repository contains the project where I contributed to the TensorFlow Team 
 
 ```
 
-### Usage with model.compile():
+### Usage with Model:
 
 ```javascript
     import tensorflow as tf
