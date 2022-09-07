@@ -119,6 +119,7 @@ class ArcFaceLoss(MetricLoss):
             "margin": self.margin,
             "scale": self.scale,
             "name": self.name,
+            "l2_normalize": self.l2_normalize,
         }
         base_config = super().get_config()
         return {**base_config, **config}
