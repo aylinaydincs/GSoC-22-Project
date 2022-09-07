@@ -26,6 +26,19 @@ This repository contains the project where I contributed to the TensorFlow Team 
 
 ```
 
+### Usage with model.compile():
+
+```javascript
+
+    labels = tf.Variable([1, 0])
+    embeddings = tf.Variable([[0.2, 0.3, 0.1], [0.4, 0.5, 0.5]])
+    
+    #create loss according to your data
+    loss_fn = tfsim.losses.ArcFaceLoss(num_classes=2, embedding_size=3)
+    loss = loss_fn(labels, embeddings)
+
+```
+
 #### Original Paper:
 [ArcFace: Additive Angular Margin Loss for Deep Face Recognition.](https://arxiv.org/abs/1801.07698v3)
 
