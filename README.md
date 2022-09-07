@@ -17,11 +17,11 @@ This repository contains the project where I contributed to the TensorFlow Team 
 
 ```javascript
 
-    loss_fn = tfsim.losses.ArcFaceLoss(num_classes=2, embedding_size=3)
     labels = tf.Variable([1, 0])
-    theme : "default | dark",
-
     embeddings = tf.Variable([[0.2, 0.3, 0.1], [0.4, 0.5, 0.5]])
+    
+    #create loss according to your data
+    loss_fn = tfsim.losses.ArcFaceLoss(num_classes=2, embedding_size=3)
     loss = loss_fn(labels, embeddings)
 
 ```
