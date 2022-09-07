@@ -265,9 +265,10 @@ def test_arcface_loss_serialization():
 
 
 def test_arcface_loss():
-    loss_fn = ArcFaceLoss(num_classes=8, embedding_size=10)
-    labels = tf.Variable([0, 1, 2, 3, 4, 5, 6, 7])
-    embeddings = tf.Variable(tf.random.uniform(shape=[8, 10]))
+    tf.random.set_seed(128)
+    loss_fn = ArcFaceLoss(num_classes=4, embedding_size=5)
+    labels = tf.Variable([0, 1, 2, 3])
+    embeddings = tf.Variable(tf.random.uniform(shape=[4, 5]))
     loss = loss_fn(labels, embeddings)
 
-    assert loss.numpy() > 0.0
+    assert 60.4 < loss.numpy() < 60.5
