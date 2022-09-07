@@ -29,7 +29,7 @@ This repository contains the project where I contributed to the TensorFlow Team 
 #### Original Paper:
 [ArcFace: Additive Angular Margin Loss for Deep Face Recognition.](https://arxiv.org/abs/1801.07698v3)
 
-#### Offical Implementation: 
+#### Offical Implementation of Paper: 
 [MXNet](https://github.com/deepinsight/insightface)
 
 ## Medium Stories
