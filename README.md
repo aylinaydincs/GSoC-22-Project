@@ -3,6 +3,8 @@
 
 
 This repository contains the project where I contributed to the TensorFlow Team during GSoC in the year 2022.
+#### Google Summer of Code Proposal
+[Proposal](https://github.com/aylinaydincs/GSoC-22-Project/blob/main/Proposal/proposal.pdf)
 
 
 ## ArcFace Loss
