@@ -39,9 +39,9 @@ class ArcFaceLoss(MetricLoss):
     """Implement of ArcFace: Additive Angular Margin Loss:
             Step 1: Create a trainable kernel matrix with the shape of [embedding_size, num_classes].
             Step 2: Normalize the kernel and prediction vectors.
-            Step 3: Calculate the cosine similarity between the normalized prediction vector and the kernel.
-            Step 4: Create a one-hot vector include the margin value for the ground truth class.
-            Step 5: Add margin_hot to the cosine similarity and multiply it by scale.
+            Step 3: Calculate the cosine similarity between the normalized prediction vectors and the kernel.
+            Step 4: Create an m-hot matrix, where m is the margin value.
+            Step 5: Add the m-hot matrix to the cosine similarities and multiply it by scale.
             Step 6: Calculate the cross-entropy loss.
 
             ArcFace: Additive Angular Margin Loss for Deep Face
