@@ -3,6 +3,12 @@
 
 
 This repository contains the project where I contributed to the TensorFlow Team during GSoC in the year 2022.
+
+[GSoC'22 Project Link](https://summerofcode.withgoogle.com/programs/2022/projects/ObpzfgGa)
+
+#### Mentor:
+- Special thanks to Yusuf Sarıgoz [@monatis](https://github.com/monatis) for being perfect mentor.
+
 #### Google Summer of Code Proposal
 [Proposal](https://github.com/aylinaydincs/GSoC-22-Project/blob/main/Proposal/proposal.pdf)
 
@@ -57,4 +63,4 @@ This repository contains the project where I contributed to the TensorFlow Team 
 ## License
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-- Special thanks to Yusuf Sarıgoz [@monatis](https://github.com/monatis) for being perfect mentor.
+
