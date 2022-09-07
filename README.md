@@ -16,6 +16,8 @@ This repository contains the project where I contributed to the TensorFlow Team 
 ### Standalone usage:
 
 ```javascript
+    import tensorflow as tf
+    import tensorflow_similarity as tfsim
 
     labels = tf.Variable([1, 0])
     embeddings = tf.Variable([[0.2, 0.3, 0.1], [0.4, 0.5, 0.5]])
@@ -29,6 +31,9 @@ This repository contains the project where I contributed to the TensorFlow Team 
 ### Usage with model.compile():
 
 ```javascript
+    import tensorflow as tf
+    import tensorflow_similarity as tfsim
+    
     #extract the required variable
     num_classes = np.unique(y_train).size
     embedding_size = model.get_layer('metric_embedding').output.shape[1]
