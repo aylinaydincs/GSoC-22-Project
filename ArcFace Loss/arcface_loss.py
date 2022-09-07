@@ -69,6 +69,8 @@ class ArcFaceLoss(MetricLoss):
                  scale: float = 64.0,  # feature scale
                  name: Optional[str] = "ArcFaceLoss",
                  reduction: Callable = tf.keras.losses.Reduction.AUTO,
+                 l2_normalize: bool = False,
+                 
                  **kwargs: object) -> object:
 
         self.num_classes = num_classes
@@ -77,6 +79,7 @@ class ArcFaceLoss(MetricLoss):
         self.scale = scale
         self.name = name
         self.kernel = tf.Variable(tf.random.normal([embedding_size, num_classes]))
+        self.l2_normalize = l2_normalize
 
         super().__init__(
             None,
@@ -89,8 +92,9 @@ class ArcFaceLoss(MetricLoss):
 
     def call(self, y_true: FloatTensor, y_pred: FloatTensor) -> FloatTensor:
 
-        y_pred_norm = tf.math.l2_normalize(y_pred, axis=1)
-        kernel_norm = tf.math.l2_normalize(self.kernel, axis=0)
+        if(self.l2_normalize):
+            y_pred = tf.math.l2_normalize(y_pred, axis=1)
+            kernel_norm = tf.math.l2_normalize(self.kernel, axis=0)
 
         cos_theta = tf.matmul(y_pred_norm, kernel_norm)
         cos_theta = tf.clip_by_value(cos_theta, -1.0, 1.0)
