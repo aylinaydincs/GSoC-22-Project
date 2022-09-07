@@ -58,8 +58,8 @@ This repository contains the project where I contributed to the TensorFlow Team 
 [MXNet](https://github.com/deepinsight/insightface)
 
 ## Medium Stories of Project
-[Face Recognition and ArcFace Loss for Beginners](https://medium.com/@aylin.aydin/face-recognition-and-arcface-loss-for-beginners-cdfddbf7e88)
-[ArcFace Loss in TensorFlow-Similarity]() 
+- [Face Recognition and ArcFace Loss for Beginners](https://medium.com/@aylin.aydin/face-recognition-and-arcface-loss-for-beginners-cdfddbf7e88)
+- [ArcFace Loss in TensorFlow-Similarity]() 
 
 ## License
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
