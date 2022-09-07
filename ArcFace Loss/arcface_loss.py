@@ -80,10 +80,12 @@ class ArcFaceLoss(MetricLoss):
 
         super().__init__(
             None,
+            distance="cosine",
             reduction=tf.keras.losses.Reduction.AUTO,
             name=name,
             **kwargs
         )
+
 
     def call(self, y_true: FloatTensor, y_pred: FloatTensor) -> FloatTensor:
 
