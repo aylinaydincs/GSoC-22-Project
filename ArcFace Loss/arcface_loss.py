@@ -65,7 +65,7 @@ class ArcFaceLoss(MetricLoss):
     def __init__(self,
                  num_classes: int,
                  embedding_size: int,
-                 margin: float = 0.50,  # margin in radians
+                 margin: float = 0.5,  # margin in radians
                  scale: float = 64.0,  # feature scale
                  name: Optional[str] = "ArcFaceLoss",
                  reduction: Callable = tf.keras.losses.Reduction.AUTO,
