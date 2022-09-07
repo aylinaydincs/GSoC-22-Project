@@ -23,3 +23,5 @@ This repository contains the project where I contributed to the TensorFlow Team 
 
 ## License
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+Special Thanks to Yusuf Sarıgoz @monatis
