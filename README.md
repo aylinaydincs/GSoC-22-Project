@@ -9,7 +9,7 @@ This repository contains the project where I contributed to the TensorFlow Team 
 #### Mentor:
 - Special thanks to Yusuf Sarıgoz [@monatis](https://github.com/monatis) for being perfect mentor.
 
-#### Google Summer of Code Proposal
+#### Google Summer of Code Proposal:
 [Proposal](https://github.com/aylinaydincs/GSoC-22-Project/blob/main/Proposal/proposal.pdf)
 
 
