@@ -15,23 +15,15 @@ This repository contains the project where I contributed to the TensorFlow Team 
 
 ### Standalone usage:
 
-<loss_fn = tfsim.losses.ArcFaceLoss(num_classes=2, embedding_size=3)
- labels = tf.Variable([1, 0])
- embeddings = tf.Variable([[0.2, 0.3, 0.1], [0.4, 0.5, 0.5]])
- loss = loss_fn(labels, embeddings)>
 ```javascript
-{
-    // Editor.md theme, default or dark, change at v1.5.0
-    // You can also custom css class .editormd-theme-xxxx
+
+    loss_fn = tfsim.losses.ArcFaceLoss(num_classes=2, embedding_size=3)
+    labels = tf.Variable([1, 0])
     theme : "default | dark",
 
-    // Preview container theme, added v1.5.0
-    // You can also custom css class .editormd-preview-theme-xxxx
-    previewTheme : "default | dark",
+    embeddings = tf.Variable([[0.2, 0.3, 0.1], [0.4, 0.5, 0.5]])
+    loss = loss_fn(labels, embeddings)
 
-    // Added @v1.5.0 & after version this is CodeMirror (editor area) theme
-    editorTheme : editormd.editorThemes['theme-name']
-}
 ```
 
 #### Original Paper:
