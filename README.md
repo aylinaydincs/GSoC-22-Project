@@ -12,6 +12,9 @@ This repository contains the project where I contributed to the TensorFlow Team 
 #### Google Summer of Code Proposal:
 [Proposal](https://github.com/aylinaydincs/GSoC-22-Project/blob/main/Proposal/proposal.pdf)
 
+#### Pull-request Link:
+https://github.com/tensorflow/similarity/pull/285
+
 
 ## ArcFace Loss
 ![](https://github.com/aylinaydincs/GSoC-22-Project/blob/main/Photos/architecture.jpg)
