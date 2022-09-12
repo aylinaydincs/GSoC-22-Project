@@ -62,7 +62,7 @@ https://github.com/tensorflow/similarity/pull/285
 
 ## Medium Stories of Project
 - [Face Recognition and ArcFace Loss for Beginners](https://medium.com/@aylin.aydin/face-recognition-and-arcface-loss-for-beginners-cdfddbf7e88)
-- [ArcFace Loss in TensorFlow-Similarity]() (Soon)
+- [ArcFace Loss in TensorFlow-Similarity](https://medium.com/@aylin.aydin/arcface-loss-in-tensorflow-similarity-894716d10c45)
 
 ## License
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
