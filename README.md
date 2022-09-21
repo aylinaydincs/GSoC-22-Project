@@ -13,7 +13,7 @@ This repository contains the project where I contributed to the TensorFlow Team 
 [Proposal](https://github.com/aylinaydincs/GSoC-22-Project/blob/main/Proposal/proposal.pdf)
 
 #### Pull-request Link:
-https://github.com/tensorflow/similarity/pull/285
+https://github.com/tensorflow/similarity/pull/291
 
 
 ## ArcFace Loss
